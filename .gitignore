@@ -1,0 +1,12 @@
+node_modules/
+data/
+uploads/tmp/*
+uploads/orders/*
+!uploads/tmp/.gitkeep
+!uploads/orders/.gitkeep
+.env
+dist/
+.tools/
+
+# Local frontend environment overrides (contains VITE_API_URL etc — never commit)
+frontend/.env.local
